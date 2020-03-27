@@ -1,0 +1,26 @@
+Query to display:
+1. all customers
+
+select customername from customers
+
+2.orders
+
+
+
+4
+insert into Products(	ProductName,	SupplierID,	CategoryID	,Unit,	Price)
+values (  '	braids',	4	,45,	'30 packets',	34)
+
+5
+SELECT * FROM OrderDetails
+WHERE OrderDetailID=78;
+
+6
+DELETE FROM [Customers] WHERE CustomerID=56
+select*from customers
+where CustomerID=56
+
+joins
+select customers.customername,customers.city,orders.orderid,orders.orderdate
+from Customers join Orders 
+where customers.customerid=orders.customerid;

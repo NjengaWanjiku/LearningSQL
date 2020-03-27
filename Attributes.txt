@@ -1,0 +1,8 @@
+admin
+campus branches-name,location
+departments-name,building,phone,campusid
+schools-name,school,campus,
+course-name,coursecode,schoolid
+students-
+units-
+	         			
